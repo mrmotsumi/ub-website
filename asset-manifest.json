@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ub-website/static/css/main.11f26343.css",
+    "main.js": "/ub-website/static/js/main.7bd8a37f.js",
+    "static/js/453.f5792979.chunk.js": "/ub-website/static/js/453.f5792979.chunk.js",
+    "static/media/tb-lungs.jpg": "/ub-website/static/media/tb-lungs.2a93f401b606c0bbf163.jpg",
+    "static/media/tb-treatment.jpg": "/ub-website/static/media/tb-treatment.84a42fc9690b12c4ffa0.jpg",
+    "static/media/tb-medication-adherence.jpg": "/ub-website/static/media/tb-medication-adherence.d1b7fc020572efde2cdd.jpg",
+    "index.html": "/ub-website/index.html",
+    "main.11f26343.css.map": "/ub-website/static/css/main.11f26343.css.map",
+    "main.7bd8a37f.js.map": "/ub-website/static/js/main.7bd8a37f.js.map",
+    "453.f5792979.chunk.js.map": "/ub-website/static/js/453.f5792979.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11f26343.css",
+    "static/js/main.7bd8a37f.js"
+  ]
+}
