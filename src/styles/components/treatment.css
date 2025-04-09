@@ -1,0 +1,350 @@
+/* treatment.css - Styles for Treatment Section */
+
+.treatment-section {
+    padding: 5rem 0;
+    background-color: #f8f9fa;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .section-header h2 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .section-header p {
+    color: #7f8c8d;
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .treatment-overview {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto 3rem;
+    padding: 0 2rem;
+    align-items: center;
+  }
+  
+  .treatment-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .treatment-basics h3 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+  }
+  
+  .treatment-principles {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .treatment-principles li {
+    padding: 0.8rem 0;
+    padding-left: 2rem;
+    position: relative;
+    color: #34495e;
+    line-height: 1.6;
+  }
+  
+  .treatment-principles li::before {
+    content: "✓";
+    color: #27ae60;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+  }
+  
+  .treatment-phases {
+    max-width: 1200px;
+    margin: 0 auto 3rem;
+    padding: 0 2rem;
+  }
+  
+  .treatment-phases h3 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+  }
+  
+  .phase-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .phase-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    border-top: 4px solid #3498db;
+  }
+  
+  .phase-card:nth-child(2) {
+    border-top-color: #e67e22;
+  }
+  
+  .phase-card h4 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+  }
+  
+  .phase-duration {
+    background-color: #eaf2f8;
+    color: #2980b9;
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .phase-card:nth-child(2) .phase-duration {
+    background-color: #fdf2e9;
+    color: #d35400;
+  }
+  
+  .phase-drugs {
+    margin-bottom: 0.5rem;
+    color: #34495e;
+  }
+  
+  .phase-goal {
+    font-style: italic;
+    color: #7f8c8d;
+  }
+  
+  .medications-container {
+    max-width: 1200px;
+    margin: 0 auto 3rem;
+    padding: 0 2rem;
+  }
+  
+  .medications-container h3 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+  }
+  
+  .medication-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .medication-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .medication-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .med-header {
+    background-color: #3498db;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .med-icon {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+  
+  .medication-card:nth-child(2) .med-header {
+    background-color: #e74c3c;
+  }
+  
+  .medication-card:nth-child(3) .med-header {
+    background-color: #f39c12;
+  }
+  
+  .medication-card:nth-child(4) .med-header {
+    background-color: #27ae60;
+  }
+  
+  .medication-card:nth-child(5) .med-header {
+    background-color: #9b59b6;
+  }
+  
+  .med-details {
+    padding: 1.5rem;
+  }
+  
+  .med-dosage, .med-duration {
+    margin-bottom: 1rem;
+    color: #34495e;
+  }
+  
+  .med-side-effects ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .med-side-effects li {
+    padding: 0.3rem 0;
+    position: relative;
+    padding-left: 1.2rem;
+  }
+  
+  .med-side-effects li::before {
+    content: "•";
+    color: #3498db;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+  }
+  
+  .resistant-tb {
+    max-width: 1200px;
+    margin: 0 auto 3rem;
+    padding: 0 2rem;
+  }
+  
+  .resistant-tb h3 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+  }
+  
+  .resistant-tb ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+  
+  .resistant-tb li {
+    padding: 0.8rem 0;
+    padding-left: 2rem;
+    position: relative;
+    color: #34495e;
+  }
+  
+  .resistant-tb li::before {
+    content: "⚠";
+    position: absolute;
+    left: 0;
+  }
+  
+  .warning-box {
+    background-color: #fdeaea;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #e74c3c;
+  }
+  
+  .warning-box h4 {
+    color: #e74c3c;
+    margin-bottom: 1rem;
+  }
+  
+  .monitoring-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  .monitoring-section h3 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+  }
+  
+  .monitoring-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .monitoring-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .monitoring-card h4 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+  }
+  
+  .monitoring-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .monitoring-card li {
+    padding: 0.5rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+  }
+  
+  .monitoring-card li::before {
+    content: "•";
+    color: #3498db;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 992px) {
+    .treatment-overview {
+      grid-template-columns: 1fr;
+    }
+    
+    .treatment-image {
+      order: -1;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .section-header h2 {
+      font-size: 2rem;
+    }
+    
+    .treatment-basics h3,
+    .treatment-phases h3,
+    .medications-container h3,
+    .resistant-tb h3,
+    .monitoring-section h3 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .medication-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .monitoring-cards {
+      grid-template-columns: 1fr;
+    }
+  }
